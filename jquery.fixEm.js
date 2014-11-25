@@ -100,12 +100,10 @@
             $apexTable = $mainTable.clone();
             $apexTable.html('');            
             $apexTable.append($colTableHead.clone());
-            $apexTable.css('width', $colTable.width());
-           
-            $apexWrap.append($apexTable);
-           // $apexWrap.offset({ left: $colTable.offset().left, top: $colTable.offset().top });
-
+            $apexTable.css('width', '100%');           
+            $apexWrap.append($apexTable);   
             $mainWrap.append($apexWrap);
+	    $apexWrap.width($stickyColWrap.width());
         }
 
         $mainTableWrap.scroll(function () {
