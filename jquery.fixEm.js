@@ -45,7 +45,7 @@
                 if (x < settings.numColumns)
                     colThSelector += ', ';
             }
-            console.log(colThSelector);
+           
             var $colThs = $mainTable.find('thead').find(colThSelector);
             //create a new tr element and append the Resource heading
             $colTableHead.append($colThs);
