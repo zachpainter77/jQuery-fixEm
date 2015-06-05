@@ -3,10 +3,15 @@
   "title": "jQuery fixEm",
   "description": "A plugin to fix table head rows and columns",
   "keywords": [
-    "jquery-plugins",
-    "fixEm"
+    "jquery",
+    "fixEm",
+    "table",
+    "scroll",
+    "sticky",
+    "header",
+    "column"
   ],
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": {
     "name": "Zach Painter",
     "url": "https://github.com/zachpainter77"
