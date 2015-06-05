@@ -1,0 +1,33 @@
+{
+  "name": "fixEm",
+  "title": "jQuery fixEm",
+  "description": "A plugin to fix table head rows and columns",
+  "keywords": [
+    "jquery-plugins",
+    "fixEm"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Zach Painter",
+    "url": "https://github.com/zachpainter77"
+  },
+  "maintainers": [
+    {
+      "name": "Zach Painter",
+      "url": "https://github.com/zachpainter77"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": "https://github.com/zachpainter77/jQuery-fixEm/issues",
+  "homepage": "https://github.com/zachpainter77/jQuery-fixEm/",
+  "docs": "https://github.com/zachpainter77/jQuery-fixEm/#readme",
+  "download": "https://github.com/zachpainter77/jQuery-fixEm/archive/master.zip",
+  "dependencies": {
+    "jquery": ">=1.4"
+  }
+}
