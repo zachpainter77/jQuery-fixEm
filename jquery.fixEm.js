@@ -88,7 +88,9 @@
         if (settings.fixedHeader) {
             var $fixedHeaderTable = $mainTable.clone();
             $fixedHeaderTable.find('tbody').remove();
-           
+           $fixedHeaderTable.find('th').each(function(index){
+           	$(this).css('width',$mainTable.find('th').eq($(this).index()).width() + 'px');
+           });
            $fixedHeaderWrap.append($fixedHeaderTable);
            $mainWrap.append($fixedHeaderWrap);
            $fixedHeaderWrap.offset({ left: $(this).offset().left });
