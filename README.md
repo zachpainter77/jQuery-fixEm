@@ -28,6 +28,6 @@ $('#myTableId').fixEm({ fixedHeader: false, scrollY: false });
 
 Here is a JS fiddle that you can experiment with:
 
-http://jsfiddle.net/y33mxpe0/5/
+https://jsfiddle.net/zachpainter77/qfL5x9tk/
 
 Enjoy..
